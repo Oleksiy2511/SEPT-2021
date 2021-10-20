@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.father-1 {
+    width: 2050px;
+    background: lightgray;
+    margin: 0 auto;
+    padding: 5px;
+    border: solid red 5px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.A {
+    height: 500px;
+    width: 2000px;
+    background: cornflowerblue;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+.header2 {
+    background: blue;
+    height: 15%;
+}
+
+.nav {
+    background: darkblue;
+    height: 10%;
+}
+
+.main\+aside {
+    background: aquamarine;
+    height: 60%;
+    display: flex;
+}
+
+.main {
+    background: lightblue;
+    width: 50%;
+}
+
+.aside {
+    background: cornflowerblue;
+    width: 50%;
+}
+
+.footer2 {
+    background: lightskyblue;
+    height: 15%;
+}
+
+.B\+C {
+    margin: 10px;
+    height: 700px;
+    width: 2000px;
+    background: chartreuse;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.b {
+    border-radius: 8px;
+    height: auto;
+    background: black;
+    width: 600px;
+    margin: 10px;
+    padding: 5px;
+}
+
+.header {
+    background: blueviolet;
+    height: 20%;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.they {
+    background: cadetblue;
+    height: 57%;
+    margin-top: 5px;
+    display: flex;
+}
+
+.menu {
+    background: orange;
+    height: 100%;
+    width: 40%;
+    text-align: center;
+}
+
+.post {
+    border-left: solid black 5px;
+    height: 100%;
+    background: gray;
+    width: 60%;
+    justify-content: flex-end;
+    flex-direction: column;
+    display: flex;
+}
+
+.post1 {
+    border-bottom: solid black 3px;
+    background: yellow;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.post2 {
+    border-top: solid black 3px;
+    background: yellowgreen;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer {
+    background: darkblue;
+    height: 20%;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.c {
+    background: chocolate;
+    height: auto;
+    width: 1410px;
+    margin: 10px;
+    padding: 5px;
+    border: solid darkgreen 5px;
+    text-align: center;
+}
+
+.vidgets {
+    background: yellow;
+    height: 25%;
+    margin: 3px;
+    padding: 10px;
+}
+
+.vidg123 {
+    height: 42%;
+    display: flex;
+    margin: 3px;
+    column-gap: 5px;
+}
+
+.vidg {
+    background: yellowgreen;
+    width: 100%;
+    padding: 10px;
+
+}
+
+.contact {
+    background: cadetblue;
+    height: 25%;
+    margin: 3px;
+    padding: 10px;
+}
+
