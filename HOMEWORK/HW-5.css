@@ -1,0 +1,79 @@
+* {
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    background: lightgray;
+    margin: 10px;
+    padding: 5px;
+}
+
+.box-1-4, .rectangle\+text {
+    height: 300px;
+    background: lightgray;
+    border: solid 5px gray;
+    border-radius: 30px;
+    margin: 20px 50px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.square, .rectangle {
+    height: 150px;
+    width: 150px;
+    background: cornflowerblue;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.box-2-4,.img\+text{
+    background: gray;
+    height: 250px;
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.text{
+    text-align: center;
+    background: lightgray;
+    box-sizing: content-box;
+    justify-content: space-evenly;
+    padding: 5px;
+    margin: 10px;
+}
+
+.circle {
+    height: 150px;
+    width: 150px;
+    background: lightgray;
+    border-radius: 50%;
+    border: solid black 2px;
+    margin: 20px;
+}
+
+.box-3-6 {
+    display: flex;
+    width: 1000px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.rectangle\+text {
+    height: 200px;
+    width: 220px;
+    flex-direction: column;
+
+}
+
+.img{
+    display: flex;
+    align-items: center;
+}
