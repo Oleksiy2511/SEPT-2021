@@ -11,7 +11,7 @@
     padding: 5px;
 }
 
-.box-1-4, .rectangle\+text {
+.box-1-4, .rectangle\-text {
     height: 300px;
     background: lightgray;
     border: solid 5px gray;
@@ -31,7 +31,7 @@
 
 }
 
-.box-2-4,.img\+text{
+.box-2-4,.img\-text{
     background: gray;
     height: 250px;
     margin: 10px;
@@ -57,6 +57,7 @@
     border-radius: 50%;
     border: solid black 2px;
     margin: 20px;
+
 }
 
 .box-3-6 {
@@ -66,7 +67,7 @@
     flex-wrap: wrap;
 }
 
-.rectangle\+text {
+.rectangle\-text {
     height: 200px;
     width: 220px;
     flex-direction: column;
@@ -76,4 +77,10 @@
 .img{
     display: flex;
     align-items: center;
+}
+.circle1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }

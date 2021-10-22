@@ -1,0 +1,62 @@
+* {
+
+    border-radius: 10px;
+}
+
+.father {
+    width: 1300px;
+    padding: 10px;
+   display: flex;
+    flex-direction: column;
+    background: lightgray;
+}
+.one-3{
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.text1{
+    width: 33.33%;
+    border: solid 2px red;
+    text-align: center;
+}
+.two-8\*2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.img\+text{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: space-evenly;
+    padding: 10px;
+    border: solid red 5px;
+}
+.img{
+    margin: 5px;
+    border: solid 2px darkblue;
+    box-sizing: border-box;
+}
+.text{
+    width: 240px;
+}
+.three-4\*2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.img2\+text{
+    width: 48%;
+    padding: 5px;
+    border: solid black 2px;
+}
+.img2\+text > .text{
+    
+}
