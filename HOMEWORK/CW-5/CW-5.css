@@ -1,27 +1,32 @@
 * {
-
     border-radius: 10px;
 }
 
 .father {
-    width: 1300px;
+    width: 1000px;
     padding: 10px;
-   display: flex;
+    display: flex;
     flex-direction: column;
     background: lightgray;
 }
-.one-3{
+
+.one-3 {
     height: 150px;
     display: flex;
     justify-content: space-evenly;
 
 }
-.text1{
+
+.text1 {
     width: 33.33%;
     border: solid 2px red;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
 }
-.two-8\*2{
+
+.two-8\-2 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -29,7 +34,9 @@
     justify-content: space-evenly;
 
 }
-.img\+text{
+
+.img\-text {
+    background: #0096dc;
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -37,26 +44,84 @@
     padding: 10px;
     border: solid red 5px;
 }
-.img{
+
+.img {
     margin: 5px;
-    border: solid 2px darkblue;
+    border: solid 2px;
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
-.text{
+
+.text {
     width: 240px;
+    font-size: 20px;
 }
-.three-4\*2{
+
+.three-4\-2 {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
     justify-content: space-evenly;
 }
-.img2\+text{
+
+.img2\-text {
     width: 48%;
     padding: 5px;
     border: solid black 2px;
 }
-.img2\+text > .text{
-    
+
+.img2\-text > .text {
+    color: #4e5413;
+    /*    встановив Color Picker і практикуюсь*/
+
 }
+
+.rectangle-3 {
+    padding: 10px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.rectangle {
+    height: 100px;
+    background: #0096dc;
+    padding: 10px;
+    margin: 10px;
+    border: solid 5px black;
+    align-items: center;
+}
+
+.circle-1-2 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.circle {
+    background: cornflowerblue;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 50%;
+    border: solid 2px green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2{
+    height: 200px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
