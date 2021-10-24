@@ -1,0 +1,69 @@
+@media screen and (max-width: 400px) {
+    .father {
+        background: darkblue
+    }
+
+    .circle {
+        background: green
+    }
+    .circle:hover{background: darkmagenta}
+    .one {
+        background: black
+    }
+
+    .rectangle {
+        background: lightskyblue
+    }
+    .button2 {
+        height: 40px;
+        width: 40px;
+        background: red;
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .father {
+        background: orange
+    }
+
+    .circle {
+        background: coral
+    }
+    .circle:hover{background: darkmagenta}
+
+    .two {
+        background: black
+    }
+
+    .D {
+        border: 0
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1100px) {
+    .father {
+        background: darkorange
+    }
+    .circle:hover{background: darkmagenta}
+    .D {
+        background: darkorange
+    }
+}
+
+@media (orientation: landscape) {
+    .one, .five, .seven {
+        display: none
+    }
+    .circle:hover{background: darkmagenta}
+    .two {
+        color: gold;
+    }
+
+    .button1 {
+        height: 40px;
+        width: 40px;
+        background: red;
+        display: none;
+    }
+}
