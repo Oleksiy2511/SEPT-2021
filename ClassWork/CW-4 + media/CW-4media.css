@@ -14,19 +14,18 @@
     .rectangle {
         background: lightskyblue
     }
-    .button2 {
-        height: 40px;
-        width: 40px;
-        background: red;
-        display: none;
-    }
+
 }
 
 @media screen and (min-width: 1500px) {
     .father {
         background: orange
     }
-
+    .button2 {
+        height: 40px;
+        width: 40px;
+        background: red;
+    }
     .circle {
         background: coral
     }
@@ -48,6 +47,11 @@
     .circle:hover{background: darkmagenta}
     .D {
         background: darkorange
+    }
+    .button2 {
+        height: 40px;
+        width: 40px;
+        background: red;
     }
 }
 
