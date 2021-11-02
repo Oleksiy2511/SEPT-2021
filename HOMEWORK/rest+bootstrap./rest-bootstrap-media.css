@@ -1,0 +1,88 @@
+@media screen and (min-width: 376px) {
+    .three-lines {
+        display: none
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .wrap {
+        background: url(image./bg.png);
+        display: flex;
+        padding: 20px;
+        align-items: center;
+    }
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+    .text__btn {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        margin-bottom: 200px;
+    }
+
+    .h1, .h2, .p {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: row;
+    }
+
+    .h1 {;
+
+        font-size: 40px;
+        line-height: 46px;
+        color: #D67E35;
+    }
+
+    .h2 {;
+
+        font-size: 30px;
+        line-height: 34px;
+        color: #D67E35;
+    }
+
+    .p {;
+        font-size: 15px;
+        line-height: 20px;
+        color: #FFFFFF;
+
+    }
+
+    .naw__btn {
+        display: none;
+    }
+
+    .logo {
+        width: 50px;
+    }
+
+    .three-lines {
+        height: 40px;
+        width: 70px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .line {
+        height: 3px;
+        width: 30px;
+        background: #D67E35;
+border-radius: 2px;
+    }
+    .p::before,
+    .p::after{
+      background: none;
+
+    }
+
+}
