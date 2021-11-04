@@ -129,7 +129,7 @@ p {
     row-gap: 20px;
 }
 
-.deff {
+.deffer {
     width: 395px;
     height: 136px;
     background: #FFFFFF;
@@ -141,13 +141,13 @@ p {
     padding: 25px;
 }
 
-.deff > img {
+.deffer > img {
     width: 80px;
     height: 70px;
     margin: 20px;
 }
 
-.deff > text {
+.deffer > text {
     box-sizing: border-box;
     font-size: 20px;
     line-height: 32px;
@@ -173,17 +173,18 @@ p {
 
 }
 
-.b-six{
+.b-six {
     display: flex;
     flex-direction: column;
     padding-top: 100px;
-    margin: 120px  120px 0 120px;
+    margin: 120px 120px 0 120px;
     width: 1250px;
     background: #FFFFFF;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 16px;
 }
-.HAUPTMERKMALE{
+
+.HAUPTMERKMALE {
     text-align: center;
     padding-bottom: 90px;
     font-style: normal;
@@ -192,36 +193,41 @@ p {
     line-height: 40px;
     color: #020303;
 }
-.text-6{
+
+.text-6 {
     font-size: 20px;
     line-height: 85px;
     color: #45494F;
     display: flex;
     flex-direction: row;
 }
-.part1,.part2{
+
+.part1, .part2 {
     padding: 35px;
 }
 
-h3{
-    color:  black;
+h3 {
+    color: black;
     font-weight: 500;
     font-size: 30px;
     line-height: 40px;
     text-align: center;
     margin: 50px;
 }
-.b-seven{
+
+.b-seven {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.b-seven>img{
+
+.b-seven > img {
     width: 610px;
     height: 813px;
     border-radius: 16px
 }
-.curs-l,.curs-r,.point{
+
+.curs-l, .curs-r, .point {
     width: 150px;
     height: 90px;
     background: #FFFFFF;
@@ -232,17 +238,20 @@ h3{
     align-items: center;
     margin: 20px;
 }
-.b-eight,.b-nine{
+
+.b-eight, .b-nine {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.point{
+
+.point {
     background: none;
-    box-shadow:none;
+    box-shadow: none;
     align-items: start;
 }
-.btn-primary{
+
+.btn-primary {
     width: 400px;
     height: 75px;
     right: 123px;
@@ -252,7 +261,8 @@ h3{
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.21);
     border-radius: 12px;
 }
-.b-nine{
+
+.b-nine {
     flex-wrap: wrap;
     column-gap: 10px;
     row-gap: 10px;
