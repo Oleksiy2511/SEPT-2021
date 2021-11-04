@@ -1,0 +1,276 @@
+.Kältemaschinen {
+    width: 1500px;
+    border: solid 1px #0096dc;
+    margin: 100px;
+    background: #FBFBFC;
+}
+
+.LOGO {
+    margin: 0 120px 0 120px;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    border: 2px solid #EAEDF5;
+    justify-content: space-evenly;
+
+}
+
+.btn-secondary {
+    background-color: #FFFFFF;
+    border: 2px solid #EAEDF5;
+    color: black;
+    text-align: center;
+    width: auto;
+}
+
+.text-1, .text-2, .text-3, .text-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.b-one, .b-two, .b-three, .b-four {
+    display: flex;
+    flex-direction: row;
+    margin: 23px 60px 0 60px;
+    height: 655px;
+}
+
+.b-three {
+    margin: 0;
+}
+
+.b-one > img {
+    width: 653px;
+    height: 655px;
+
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: #1652AC;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 3px;
+    color: #1652AC;
+}
+
+p {
+    width: 500px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+
+}
+
+.text-3 > h2 {
+    color: #FFFFFF;
+}
+
+.text-3 {
+    width: 100%;
+    background: #1652AC;
+    align-items: center;
+    padding: 0 250px 0 250px;
+}
+
+.text-3 > p {
+    font-size: 20px;
+    line-height: 32px;
+    color: #FBFDFF;
+}
+
+.text-4 > p {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: #020303;
+}
+
+.b-four > img {
+    width: 900px;
+    margin-right: -60px;
+    margin-left: -150px;
+}
+
+.text-4 {
+    padding-left: 50px;
+}
+
+.b-five {
+    display: flex;
+    flex-direction: column;
+    padding: 0 120px 0 120px;
+    background: #FBFBFC;
+}
+
+.Text-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 25px;
+    row-gap: 20px;
+}
+
+.deff {
+    width: 395px;
+    height: 136px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 25px;
+}
+
+.deff > img {
+    width: 80px;
+    height: 70px;
+    margin: 20px;
+}
+
+.deff > text {
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #45494F;
+
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.square {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 50px;
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: 0 30px 0 30px;
+
+}
+
+.b-six{
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    margin: 120px  120px 0 120px;
+    width: 1250px;
+    background: #FFFFFF;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}
+.HAUPTMERKMALE{
+    text-align: center;
+    padding-bottom: 90px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 40px;
+    color: #020303;
+}
+.text-6{
+    font-size: 20px;
+    line-height: 85px;
+    color: #45494F;
+    display: flex;
+    flex-direction: row;
+}
+.part1,.part2{
+    padding: 35px;
+}
+
+h3{
+    color:  black;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    margin: 50px;
+}
+.b-seven{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.b-seven>img{
+    width: 610px;
+    height: 813px;
+    border-radius: 16px
+}
+.curs-l,.curs-r,.point{
+    width: 150px;
+    height: 90px;
+    background: #FFFFFF;
+    box-shadow: 0 0 21px rgba(64, 68, 75, 0.14);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.b-eight,.b-nine{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.point{
+    background: none;
+    box-shadow:none;
+    align-items: start;
+}
+.btn-primary{
+    width: 400px;
+    height: 75px;
+    right: 123px;
+    background: linear-gradient(180deg, #0C5CD6 0%, rgba(0, 56, 140, 0) 100%), #004FC7;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.21);
+    border-radius: 12px;
+}
+.b-nine{
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
