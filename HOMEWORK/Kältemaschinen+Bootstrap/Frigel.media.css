@@ -1,96 +1,106 @@
 @media screen and (max-width: 400px) {
 
-    .text-6 {
+    .text-6, p {
         display: none;
-        width: 390px;
     }
 
     .Kältemaschinen {
         margin: 0;
-        padding: 0;
+        padding: 10px;
         display: flex;
         flex-direction: column;
-        width: 390px;
+        width: 399px;
+        row-gap: 10px;
     }
 
-    .LOGO > img. {
+    .LOGO {
         height: 30px;
         width: 100px;
+        padding: 0;
+        margin: 0;
+
     }
 
     .header {
         display: flex;
         flex-direction: column;
         width: 390px;
+        height: 350px;
         align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
     }
 
     .btn-secondary {
         display: flex;
         flex-direction: column;
-        width: 390px;
+        width: 300px;
+        height: border-box;
 
+    }
+    .btn-primary{
+        width: 360px;
     }
 
     .text-1, .text-2, .text-3, .text-4 {
-        width: 390px;
+        width: 360px;
         align-self: center;
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin:0;
-        padding-top: 20px;
+        margin: 0;
+        padding: 20px 0 0 0;
         font-size: 20px;
         line-height: 18px;
+        height: border-box;
     }
 
     .b-one, .b-two, .b-three, .b-four, .b-five, .b-six, .b-seven, .b-eight, .b-nine {
-        width: 390px;
+        width: 360px;
         display: flex;
         flex-direction: column;
-        justify-content:space-around;
-        margin-top: 20px;
+        margin: 0;
         padding: 0;
+
     }
 
-    .b-one > img, .b-four > img, .b-seven > img. {
-        width: 380px;
+    .b-one > img, .b-four > img{
+        width: 300px;
+        height: 300px;
+        padding: 0;
+        margin: 0;
+        display: flex;
     }
-
+    .b-seven > img{
+        width: 360px;
+        height: 380px;
+        padding: 0;
+        margin: 0;
+    }
     .deffer {
-        width: 390px;
+        width: 360px;
         height: 100px;
         display: flex;
         flex-direction: row;
     }
 
-    h1, h2, h3 {
-        width: 150px;
+
+    .b-four > img {
+        margin: 0;
+        padding: 0;
+        width: 360px;
     }
-.b-four > img{
-    margin: 0;
-    padding: 0;
-    width: 390px;
+
+    .Text-img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+h1{
+    font-size: 40px;
 }
-.Text-img{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
