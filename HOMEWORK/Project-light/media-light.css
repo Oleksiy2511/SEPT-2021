@@ -1,0 +1,32 @@
+@media screen and (min-width: 415px) {
+    .mobil {
+        display: none
+    }
+.mobil330{
+    display: none;
+}
+}
+
+@media screen and (max-width: 329px) {
+    .bloc {
+        display: none;
+    }
+    .mobil330{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 330px) and (max-width: 414px){
+    .mobil{
+        display: none;
+    }
+
+    .bloc{
+        display: none;
+    }
+}
+
+
+
+
+
