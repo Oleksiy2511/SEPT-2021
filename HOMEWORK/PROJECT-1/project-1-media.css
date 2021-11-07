@@ -1,0 +1,21 @@
+@media screen and (min-width: 1919px){
+.еще{
+    display: none;
+}
+}
+@media screen and (max-width:329px ){
+*{
+    margin: 0;
+    padding-top: 0;
+}
+.collapse{
+    display: none;
+}
+.assortment,.menu,.info{
+    padding: 0;
+}
+.clutch{
+    width: 290px;
+    height: 195px;
+}
+}
